@@ -1,0 +1,19 @@
+{
+  "name": "mermaid-worker",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --remote",
+    "build": "twrangler build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.2.6",
+    "@cloudflare/workers-types": "^4.20240502.0",
+    "twrangler": "0.0.9",
+    "vitest": "1.6.0",
+    "wrangler": "^3.53.1"
+  },
+  "dependencies": {
+    "@cloudflare/puppeteer": "^0.0.7"
+  }
+}
